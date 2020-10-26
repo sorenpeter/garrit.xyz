@@ -44,3 +44,4 @@ test-dist
 .vscode
 .cache
 .firebase
+.next

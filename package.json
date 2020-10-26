@@ -4,7 +4,7 @@
   "description": "Personal portfolio",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./public/index.html",
+    "start": "next",
     "build": "parcel build ./public/index.html --public-url ./ && cp -rf ./.well-known ./dist/.well-known",
     "server": "npm run build && cp -r . /var/www  && service apache2 stop && service apache2 start",
     "test": "",
@@ -21,14 +21,10 @@
   },
   "homepage": "https://github.com/garritfra/Portfolio#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.12.4",
-    "typescript": "^3.9.5"
+    "gh-pages": "^1.2.0"
   },
   "dependencies": {
+    "@babel/core": "^7.12.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.10",
@@ -36,17 +32,14 @@
     "analytics-plugin-ga": "^0.1.5",
     "animate.css": "^3.7.2",
     "animate.min.css": "0.0.3",
-    "gh-pages": "^1.2.0",
+    "next": "^9.5.5",
     "node-sass": "^4.14.1",
     "particles.js": "^2.0.0",
-    "public": "^0.1.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-particles-js": "^2.7.1",
     "react-typed": "^1.2.0",
-    "serve": "^10.1.2",
     "smoothscroll": "^0.4.0",
-    "src": "^1.1.2",
     "styled-components": "^4.4.1"
   }
 }
