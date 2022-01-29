@@ -1,12 +1,6 @@
 .footer {
-    padding: 56px;
     padding-bottom: 0px;
-    background: $color-accent-dark;
     text-align: center;
-
-    @media (prefers-color-scheme: light) {
-        background: $color-accent-light;
-    }
 
     &__content {
         display: flex;

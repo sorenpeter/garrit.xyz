@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="footer">
+        <footer className="footer container">
             <div className="footer__content">
                 <section className="footer__content__links">
                     <h3>Links of Interest</h3>

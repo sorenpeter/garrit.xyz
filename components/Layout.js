@@ -12,25 +12,8 @@ export default function Layout({
     <section className={`layout`}>
       <Meta siteTitle={siteTitle} siteDescription={siteDescription} />
       <Header siteTitle={siteTitle} />
-      <div className="content">{children}</div>
+      <main className="content container">{children}</main>
       <Footer />
-      <style jsx>
-        {`
-          .layout {
-            overflow-x: hidden;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-          }
-          .layout .info_page {
-            color: #ebebeb;
-          }
-          .content {
-          }
-          @media (min-width: 768px) {
-          }
-        `}
-      </style>
     </section>
   );
 }
