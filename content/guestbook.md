@@ -10,6 +10,12 @@ get redirected to the page editor.
 
 ---
 
+### sørenpeter, on 2022-10-06:
+
+Hi there, this is a cool idea, but what about for people, who does not have a github account?
+
+-- [sørenpeter](https://darch.dk)
+
 ### Garrit, on 2022-10-05:
 
 Want to add your own? Copy this paragraph to a new section above!
